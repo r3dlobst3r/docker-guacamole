@@ -1,6 +1,6 @@
 FROM library/tomcat:9-jre11
 
-ENV ARCH=amd64 \
+ENV ARCH=armhf \
   GUAC_VER=1.2.0 \
   GUACAMOLE_HOME=/app/guacamole \
   PG_MAJOR=9.6 \
